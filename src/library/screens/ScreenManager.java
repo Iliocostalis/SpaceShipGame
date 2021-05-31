@@ -12,7 +12,6 @@ public class ScreenManager{
 
     public static MainScreen mainScreen;
     public static Shop shop;
-    public static TestScreen testScreen;
     
     public static void loadScreens(){
     	mainScreen = new MainScreen();
@@ -20,9 +19,6 @@ public class ScreenManager{
         
         shop = new Shop();
         screens.add(shop);
-
-        testScreen = new TestScreen();
-        screens.add(testScreen);
     }
 
     public static void loadScreen(int id){

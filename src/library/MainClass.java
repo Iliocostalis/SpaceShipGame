@@ -203,7 +203,7 @@ public class MainClass {
 			
 			double time = glfwGetTime();
 			EngineTools.deltaTime = (float) (time - lastTime);
-			EngineTools.deltaTime = .02f;
+			//EngineTools.deltaTime = .02f;
 			lastTime = time;
 			
 			//System.out.println(1/EngineTools.deltaTime);

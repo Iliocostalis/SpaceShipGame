@@ -1,0 +1,11 @@
+attribute vec4 vPosition;
+attribute vec4 colorScale;
+attribute vec2 a_texCoord;
+varying vec2 v_texCoord;
+varying vec4 f_colorScale;
+
+void main() {
+   gl_Position = vPosition;
+   v_texCoord = a_texCoord;
+   f_colorScale = colorScale;
+}
